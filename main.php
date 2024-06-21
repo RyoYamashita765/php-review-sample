@@ -8,12 +8,12 @@ class SampleClass {
             echo 'i = ' . $i . PHP_EOL;
         }
 
-        for ($j = 1; $j <= 10; $j++) {
-            echo 'j = ' . $j . PHP_EOL;
-        }
-
         for ($k = 1; $k <= 10; $k++) {
             echo 'k = ' . $k . PHP_EOL;
+        }
+
+        for ($m = 1; $m<= 10; $m++) {
+            echo 'm = ' . $m . PHP_EOL;
         }
     }
 }
